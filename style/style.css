@@ -1,0 +1,123 @@
+@font-face {
+    font-family:trk;
+    src: url(/test/test8/Demo_Fonts/Fontspring-DEMO-theseasons-reg.otf);
+}
+*{
+    box-sizing: border-box;
+    scroll-behavior: smooth; 
+    font-family:"trk";
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: transparent url('../img~icon/8.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    font-family: ("FONTSPRING DEMO - The Seasons");
+}
+
+#hero{
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+#top{
+    margin-top: 54px;
+}
+
+#nave{
+    height: 80px;
+    border:1px solid #FFFFFF;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+li ul a{
+    text-decoration: none;
+}
+#header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#h1{
+    font-weight: initial;
+    position: absolute;
+    top: 40px;
+    left: 200px;
+    font-size: 140px;
+    color: #FFFFFF;
+    float: left;
+    font: normal normal 300 225px/241px FONTSPRING DEMO - The Seasons;
+    opacity: 1;
+    letter-spacing: 0px;
+}
+#h2{
+    font-weight: initial;
+    position: absolute;
+    top: 120px;
+    left: 650px;
+    font-size: 140px;
+    font: normal normal 300 225px/241px FONTSPRING DEMO - The Seasons;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+   float: right;
+}
+
+#butt{
+    position: relative;
+    color: #FFFFFF;
+    background-color: transparent;
+    width: 180px;
+    height: 45px;
+    border: 1px solid #FFFFFF;
+    opacity: 1;
+    top: 260px;
+    left: 520px;
+}
+
+.icon{
+    position: relative;
+    top: 32px;
+    left: 130px;
+    width: 32px;
+    height: 23px;
+    opacity: 1;
+    color: #FFFFFF;
+}
+
+#ico{
+    position: relative;
+    left: 25px;
+}
+.png{
+    position: relative;
+    top: 160px;
+    left: 585px;
+    width: 80px;
+    height: 80px;
+    background: transparent url('img/Copie de Simple Lines Company Logo A4 Stationery Paper Document.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+#Logo{
+    position: relative;
+    color: #FFFFFF;
+    align-items: center;
+    text-align: center;
+    left: 40%;
+    top: 20px;
+}
+
+#gh-icon{
+    float: right;
+    width: 32px;
+    height: 23px;
+    opacity: 1;
+    color: #FFFFFF;
+    margin-top: 32px;
+    margin-right: 80px;
+}
